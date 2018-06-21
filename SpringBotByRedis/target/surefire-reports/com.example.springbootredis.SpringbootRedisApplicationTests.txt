@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springbootredis.SpringbootRedisApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 12.066 s <<< FAILURE! - in com.example.springbootredis.SpringbootRedisApplicationTests
+contextLoads(com.example.springbootredis.SpringbootRedisApplicationTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'queue2' defined in class path resource [com/example/springbootredis/service/rabbitmq/RabbitConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.amqp.core.Queue]: Factory method 'queue2' threw exception; nested exception is java.lang.IllegalArgumentException: 'name' cannot be null
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.amqp.core.Queue]: Factory method 'queue2' threw exception; nested exception is java.lang.IllegalArgumentException: 'name' cannot be null
+Caused by: java.lang.IllegalArgumentException: 'name' cannot be null
+
+sendTest(com.example.springbootredis.SpringbootRedisApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'queue2' defined in class path resource [com/example/springbootredis/service/rabbitmq/RabbitConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.amqp.core.Queue]: Factory method 'queue2' threw exception; nested exception is java.lang.IllegalArgumentException: 'name' cannot be null
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.amqp.core.Queue]: Factory method 'queue2' threw exception; nested exception is java.lang.IllegalArgumentException: 'name' cannot be null
+Caused by: java.lang.IllegalArgumentException: 'name' cannot be null
+

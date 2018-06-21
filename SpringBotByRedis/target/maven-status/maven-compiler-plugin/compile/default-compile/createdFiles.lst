@@ -1,0 +1,11 @@
+com\example\springbootredis\controller\UserController.class
+com\example\springbootredis\service\rabbitmq\RabbitConfig.class
+com\example\springbootredis\controller\RedisByTestController.class
+com\example\springbootredis\service\rabbitmq\Sender.class
+com\example\springbootredis\SpringbootRedisApplication.class
+com\example\springbootredis\service\impl\UserServiceImpl.class
+com\example\springbootredis\entity\Student.class
+com\example\springbootredis\service\redis\RedisService.class
+com\example\springbootredis\dao\UserDao.class
+com\example\springbootredis\service\rabbitmq\Receiver.class
+com\example\springbootredis\service\UserService.class
